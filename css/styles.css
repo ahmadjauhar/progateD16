@@ -1,0 +1,187 @@
+/* Reset CSS */
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-------------------------------------*/
+
+
+/* Styling */
+
+/* Top-Wrapper */
+
+.section {
+    width:100%;
+}
+.top-wrapper { 
+	padding-top: 150px;
+	margin: 0 auto;
+ 	height: 560Px; 
+ 	line-height: 50px;
+	background-image: url('https://raw.githubusercontent.com/ahmadjauhar/progate/master/main.JPG'); 
+	background-size: cover;
+	text-align: center; 
+	opacity: 1; 
+}
+
+
+.heading h1{ 
+	margin-top: 100px;
+	margin-bottom: 40px;
+	color:white; 
+	font-size: 80px; 
+	letter-spacing: 10px; 
+	font-style: oblique;
+}
+
+.heading h2 {
+	display:inline-block;
+	padding-bottom:20px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid white; 
+	color:white;
+	font-size: 40px;
+	font-family: 'Tangerine';
+	letter-spacing: 2px;
+	font-weight: normal;
+    
+	
+}
+
+.btn {
+	font-size:15px; 
+	color: white;
+	font-weight: bold;
+	letter-spacing:1px ;
+	border-radius: 4px;
+	opacity:0.925;
+}
+
+.order {
+	background-color:#e74c3c; 
+	padding: 15px;
+	box-shadow:0 9px #B71C1C;
+	
+}
+
+.menu {
+	background-color:#66BB6A;
+	padding: 15px 22px;	
+	margin-left:35px ;
+	box-shadow:0 9px #388E3C;
+}
+
+.btn:hover {
+	cursor:pointer; 
+	opacity:20;
+}
+
+.btn:active {
+	box-shadow: none;  
+	position: relative; 
+	top: 9px; 
+}
+
+/* ------------------------------------------ */
+
+/* Main Tambahan - Menu */
+
+.main-tambahan {
+	background-color : #EEE2C9;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.main-tambahan h1 {
+	font-family: 'Tangerine', cursive;
+	font-weight : bolder;
+	font-size : 60px;
+	border-bottom: 2px solid #000;
+	display: inline-block;
+	margin-bottom: 10px
+}
+
+.contents {
+	margin : 0 auto;
+	width : 80%;
+	text-align : center;
+  }
+  
+  .content {
+	display: inline-block;
+	width : 30%;
+	margin: 30px 0;
+  }
+  
+  .content-pie img{
+	width : 90%;
+	opacity : 95%;
+	border-radius : 5px;
+  }
+  
+  .content h2 {
+	font-family: 'Tangerine', cursive;
+	font-weight : bolder;
+	font-size : 40px;
+	margin-top: 10px
+  }
+
+  .content p {
+	  margin: 10px 0 16px 0;
+  }
+  
+  .order-now {
+	margin-top: 6px;
+  }
+  .order-now a{
+	padding : 6px 12px;
+	border-radius : 4px;
+	margin : 0px 5px 0px 5px;
+	color : rgba(255, 255, 255, 0.85);
+	background-color : #B37A4C;
+  }
+
+  .clear {
+	  clear: left;
+  }
+
+  /*----------------------*/
+
+  /* Footer */
+
+  .footer {
+	box-sizing: border-box;
+	background-color: #f45625;
+	padding: 50px 180px
+  }
+  
+  .footer .logo {
+	height: 120px;
+	border-radius: 10px;
+  }
+  
+  .footer-list {
+	  box-sizing: border-box;
+	  float: right;
+	  padding: 15px 0;
+  }
+
+  .footer li {
+	font-size: 20px;
+	color: white;
+	margin-bottom: 16px;
+}
+  
+  
