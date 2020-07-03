@@ -22,9 +22,8 @@ a {
 /* Header */
 
 header {
-	background-color: #f45625;
+	background-color:rgba(244, 86, 37, 0.85);
 	height: 90px;
-	opacity: 0.85;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
@@ -35,15 +34,16 @@ header {
     padding: 20px 40px;
 }
 
+.header-list ul {
+	padding-right: 30px;
+  }
+
 .header-list li{
     padding: 33px 15px;
     float: right;
-	color: #2c352f;
+	color: #fff;
+	font-weight: 500;
 	opacity: 0.8;
-}
-
-.header-list ul {
-  padding-right: 30px;
 }
 
 .header-list span {
