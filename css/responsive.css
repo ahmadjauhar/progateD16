@@ -14,6 +14,10 @@
     .footer {
         padding: 50px 100px;
     }
+
+    .header-logo img {
+        width: 180px;
+    }
 }
 
 @media (max-width: 670px) {
@@ -49,6 +53,14 @@
     .footer-list li {
         display: inline;
         margin: 0 10px;
+    }
+
+    .header-logo img {
+        width: 240px;
+    }
+
+    .header-list {
+        display: none;
     }
 }
 

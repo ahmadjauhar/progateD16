@@ -19,7 +19,42 @@ a {
 
 
 /* Styling */
+/* Header */
 
+header {
+	background-color: #f45625;
+	height: 90px;
+	opacity: 0.85;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+.header-logo {
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px;
+}
+
+.header-list li{
+    padding: 33px 15px;
+    float: right;
+	color: #2c352f;
+	opacity: 0.8;
+}
+
+.header-list ul {
+  padding-right: 30px;
+}
+
+.header-list span {
+  background-color: #f45625;
+}
+
+.header-list li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/*------------------------------------*/
 /* Top-Wrapper */
 
 .section {
